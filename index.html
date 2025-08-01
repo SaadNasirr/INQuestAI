@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Interview Question Generator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>AI Interview Question Generator</h1>
+
+    <label for="job-role">Choose a Job Role:</label>
+    <select id="job-role">
+      <option value="Frontend Developer">Frontend Developer</option>
+      <option value="Backend Developer">Backend Developer</option>
+      <option value="Full Stack Developer">Full Stack Developer</option>
+      <option value="Data Scientist">Data Scientist</option>
+      <option value="Machine Learning Engineer">Machine Learning Engineer</option>
+      <option value="Cybersecurity Analyst">Cybersecurity Analyst</option>
+      <option value="Cloud Engineer">Cloud Engineer</option>
+      <option value="UI/UX Designer">UI/UX Designer</option>
+      <option value="DevOps Engineer">DevOps Engineer</option>
+      <option value="AI Researcher">AI Researcher</option>
+      <option value="Product Manager">Product Manager</option>
+    </select>
+
+    <button id="generate-btn">Generate Questions</button>
+
+    <div id="output-container">
+      <h2>Generated Questions</h2>
+      <div id="questions"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
